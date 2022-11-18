@@ -71,8 +71,8 @@ export interface ContractCallRequest extends Struct {
 
 /** @name ContractExecResult */
 export interface ContractExecResult extends Struct {
-  readonly gasConsumed: Weight;
-  readonly gasRequired: Weight;
+  readonly gasConsumed: WeightV2;
+  readonly gasRequired: WeightV2;
   readonly storageDeposit: StorageDeposit;
   readonly debugMessage: Text;
   readonly result: ContractExecResultResult;

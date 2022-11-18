@@ -55,8 +55,8 @@ export interface InterfaceContractCalls {
 
 export interface ContractCallOutcome {
   debugMessage: Text;
-  gasConsumed: Weight;
-  gasRequired: Weight;
+  gasConsumed: WeightV2;
+  gasRequired: WeightV2;
   output: Codec | null;
   result: ContractExecResultResult;
   storageDeposit: StorageDeposit;

@@ -81,8 +81,8 @@ export default {
       result: 'ContractExecResultResult'
     },
     ContractExecResult: {
-      gasConsumed: 'Weight',
-      gasRequired: 'Weight',
+      gasConsumed: 'WeightV2',
+      gasRequired: 'WeightV2',
       storageDeposit: 'StorageDeposit',
       debugMessage: 'Text',
       result: 'ContractExecResultResult'
